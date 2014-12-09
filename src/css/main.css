@@ -43,6 +43,22 @@ html {
 .darkestBG {
 	background: #333;
 }
+.jumbotron {
+	background-image:url(../img/Microsoft-Logo-l.gif);
+}
+.jumbotron h1 {
+	color: white;
+	font-weight: bold;
+}
+.btn {
+	background-color: #FF7627;
+	color: white;
+}
+.half {
+	width: 50%;
+	float: left;
+	background-color: #FF7627;
+}
 /*
  * A better looking default horizontal rule
  */
