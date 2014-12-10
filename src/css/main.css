@@ -31,18 +31,6 @@ html {
     background: #b3d4fc;
     text-shadow: none;
 }
-
-.darkBG {
-	background: #999;
-}
-
-.darkerBG {
-	background: #666;
-}
-
-.darkestBG {
-	background: #333;
-}
 .jumbotron {
 	background-image:url(../img/Microsoft-Logo-l.gif);
 }
@@ -54,10 +42,25 @@ html {
 	background-color: #FF7627;
 	color: white;
 }
-.half {
+.halfLeft {
 	width: 50%;
 	float: left;
-	background-color: #FF7627;
+}
+.halfRight {
+	width: 50%;	
+	float: right;
+}
+.fullSize {
+	width: 100%;
+}
+.R {
+	float: right;
+}
+.L {
+	float: left;
+}
+.col {
+	color: #FF7627;
 }
 /*
  * A better looking default horizontal rule
